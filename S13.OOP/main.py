@@ -1,0 +1,1 @@
+my_ticket = AirTrip("Otopeni", "Viena", 120)

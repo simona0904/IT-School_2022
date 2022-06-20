@@ -1,5 +1,12 @@
 
 # Log levels: DEBUG, INFO, WARNING, ERROR, CRITICAL
+# # sa scriem 5 functii
+
+# debug("Mesaj") -> [DEBUG] Mesaj
+# info("Mesaj") -> [INFO] Mesaj
+# warining("Mesaj") -> [WARNING] Mesaj
+# error("Mesaj") -> [ERROR] Mesaj
+# critical("Mesaj") -> [CRITICAL] Mesaj
 
 
 def log(msg, level):
@@ -17,7 +24,7 @@ def warning(msg):
 def error(msg):
     log(msg, "ERROR") 
 
-def error(msg):
+def critical(msg):
     log(msg, "CRITICAL")     
     
              
@@ -31,10 +38,4 @@ log("Start script", "CRITICAL")
 
 INFO("Start")  
 
-# # sa scriem 5 functii
 
-# debug("Mesaj") -> [DEBUG] Mesaj
-# info("Mesaj") -> [INFO] Mesaj
-# warining("Mesaj") -> [WARNING] Mesaj
-# error("Mesaj") -> [ERROR] Mesaj
-# critical("Mesaj") -> [CRITICAL] Mesaj

@@ -13,4 +13,4 @@ if raza <= 100:
     print("Perimetrul cercului =", perimetru)
     print("Aria cercului = " + str(aria)) 
 else:
-    print("End")     
+    print("End")    
