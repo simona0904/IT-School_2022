@@ -6,8 +6,8 @@ id_client = 63
 
 # print("Nume: {0} | Prenume: {1}".format(first_name, last_name))
 
-# print("Vasta mea ca FLOAT: {:.2f}".format(age))
-# print("Vasta mea ca INT: {:d}".format(int(age)))
+# print("Vasta mea ca FLOAT: {:.2f}".format(age))    # printeaza 20.00 (20 cu 2 zecimale care vin din {:.2f}) (f = float)
+# print("Vasta mea ca INT: {:d}".format(int(age)))   # printeaza 20 fara zecimale (d = decimal)
 
 
 # print("ID DECIMAL: {:-^10d}".format(id_client))

@@ -1,0 +1,13 @@
+
+format_spec ::= [[fill] [align] [sign] [#] [0] [width] [grouping_option] [.precision] [type]
+fill ::= <any character>
+align ::= ">"  "<"  "="  "^"
+sign ::= "+"  "-"  " "
+width ::= integer
+grouping_option ::= "_"  ","
+precision ::= integer
+type ::= "b"  "c"  "d"  "e"  "E"  "f"  "F"  "g"  "G"  "n"  "o"  "s"  "x"  "X"  "%" 
+
+
+https://docs.python.org/3/library/string.html#format-specification-mini-language
+(here we can find all documentation about format-specification)

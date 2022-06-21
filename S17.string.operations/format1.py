@@ -16,6 +16,7 @@ first_name = "Mihai"
 last_name = "Dinu"
 age = 20
 
+
 print("Prenume: %s | Nume: %s | Varsta: %d" % (last_name, first_name, age))
 
 
