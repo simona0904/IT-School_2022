@@ -1,0 +1,5 @@
+
+Bug software = defect de functionare al unui soft/comportament neasteptat.
+Debugging = procesul de analiza si rezolvare a unui bug.
+Debugger = software care poate interveni in executia altui softwarept a examina comportamentul.
+Breakpoint = punct in care se suspenda executia.
