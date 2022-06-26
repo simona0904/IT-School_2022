@@ -36,6 +36,6 @@ log("Start script", "WARNING")
 log("Start script", "ERROR")
 log("Start script", "CRITICAL")
 
-INFO("Start")  
+ 
 
 
